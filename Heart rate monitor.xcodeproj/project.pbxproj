@@ -12,6 +12,7 @@
 		741224021D338021002A094D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741224001D338021002A094D /* Main.storyboard */; };
 		741224041D338021002A094D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741224031D338021002A094D /* Assets.xcassets */; };
 		741224071D338021002A094D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741224051D338021002A094D /* LaunchScreen.storyboard */; };
+		7412240F1D33A437002A094D /* HeartRateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7412240E1D33A437002A094D /* HeartRateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		741224031D338021002A094D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		741224061D338021002A094D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		741224081D338021002A094D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7412240E1D33A437002A094D /* HeartRateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				741223FC1D338021002A094D /* AppDelegate.swift */,
 				741223FE1D338021002A094D /* ViewController.swift */,
+				7412240E1D33A437002A094D /* HeartRateManager.swift */,
 				741224001D338021002A094D /* Main.storyboard */,
 				741224031D338021002A094D /* Assets.xcassets */,
 				741224051D338021002A094D /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				741223FF1D338021002A094D /* ViewController.swift in Sources */,
+				7412240F1D33A437002A094D /* HeartRateManager.swift in Sources */,
 				741223FD1D338021002A094D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +292,7 @@
 				7412240D1D338021002A094D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
